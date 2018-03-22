@@ -1,0 +1,791 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calligaris</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <!-- <link href="css/bootstrap.css" rel="stylesheet">-->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/accordion.css">
+
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+</head>
+<body>
+  <header>
+    <div id="nav" class="header-top">
+      <div class="container">
+        <div class="logo">
+          <div class="hidden-top-menu">
+            <a id="topSandwich" class="sandwich-arrow" href="javascript:void(0);" onclick="myFunction()"></a>
+            <ul id="nav_1" class="sub-menu">
+              <li><a class="inner-top" href="#">
+                <div class="text">Дизайн интерьера</div></a>
+              </li>
+              <li><a class="inner-top" href="#">
+                <div class="text">События</div></a>
+              </li>
+              <li><a class="inner-top" href="#">
+                <div class="text">Клиентам</div></a>
+              </li>
+              <li><a class="inner-top" href="#">
+                <div class="text">Магазины</div></a>
+              </li>
+            </ul>
+          </div>
+          <a class="logo-block" href="#"><div class="logo-img"><img src="img/logo.png" alt="Calligaris"></div>
+          <span class="slogan"><img src="img/slogan.png" alt="Italian design"></span></a>
+        </div>
+        <nav class="site-nav">
+          <ul>
+            <li><a class="inner-skew" href="#">
+              <div class="text">Дизайн интерьера</div></a>
+            </li>
+            <li><a class="inner-skew" href="#">
+              <div class="text">События</div></a>
+            </li>
+            <li><a class="inner-skew" href="#">
+              <div class="text">Клиентам</div></a>
+            </li>
+            <li><a class="inner-skew" href="#">
+              <div class="text">Магазины</div></a>
+            </li>
+          </ul>
+          <div class="user-block">
+            <div class="login">
+              <a class="inner-skew" href="#">
+                <div class="text">Войти</div></a>
+            </div>
+            <div class="cart">
+              <a class="inner-skew" href="#">
+                <div class="text">Корзина - 0 руб.</div></a>
+              <div class="mini-cart-info">
+                <table class="cart-table">
+                  <tr>
+                    <td class="remove"><a href="">&#10005</a></td>
+                    <td><a class="image" href="" title="Стул Аида"></a></td>
+                    <td class="name">Стул Аида</td>
+                    <td class="quantity">x&nbsp; 1</td>
+                    <td class="price-item">19724 руб.</td>
+                  </tr>
+                  <tr>
+                    <td class="remove"><a href="">&#10005</a></td>
+                    <td><a class="image" href="" title="Стул Аида"></a></td>
+                    <td class="name">Стул Аида</td>
+                    <td class="quantity">x&nbsp; 1</td>
+                    <td class="price-item">19724 руб.</td>
+                  </tr>
+                  <tr>
+                    <td class="remove"><a href="">&#10005</a></td>
+                    <td><a class="image" href="" title="Стул Аида"></a></td>
+                    <td class="name">Стул Аида</td>
+                    <td class="quantity">x&nbsp; 1</td>
+                    <td class="price-item">19724 руб.</td>
+                  </tr>
+                </table>
+                <div class="checkout">
+                  <table class="total">
+                    <tr>
+                      <td>Итого:&nbsp;</td>
+                      <td>80 385 руб.</td>
+                    </tr>
+                  </table>
+                  <a class="button" href="">Оформить</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="header-bottom container">
+      <div class="catalog-nav">
+        <div class="hidden-bottom-menu">
+          <a id="botMenu" class="mobi-hover" href="javascript:void(0);" tabindex="1">Каталог</a>
+          <ul id="nav_2" class="bottom-sub-menu">
+            <li class="media-sub-li">
+              <a class="inner-bottom" href="#">
+                <div class="text">Столовая</div>
+               </a>
+              <div class="media-drop">
+                <ul class="media-sub-menu">
+                  <h3>Стулья</h3>
+                  <li><a href="#">Барные стулья</a></li>
+                  <h3>Столы</h3>
+                  <li><a href="#">Нераскладные столы</a></li>
+                  <li><a href="#">Раскладные столы</a></li>
+                  <li><a href="#">Консольные столы</a></li>
+                  <li><a href="#">Трансформеры</a></li>
+                </ul>
+                <div class="media-wrapper-slider">
+                  <div class="media-catalog-slider">
+                    <input checked type="radio" name="slider" id="media-slide1" class="set" />
+                    <input type="radio" name="slider" id="media-slide2" class="set" />
+                    <input type="radio" name="slider" id="media-slide3" class="set" />
+                    <input type="radio" name="slider" id="media-slide4" class="set" />
+                    <div class="media-mask">
+                      <div class="media-overflow">
+                        <div class="media-slider-item">
+                          <a href=""><img src="img/1.jpg" alt=""></a>
+                            <div class="title">Стол ECLISSE</div>
+                            <div class="price">от &nbsp;<span>324 497</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="media-slider-item">
+                          <a href=""><img src="img/2.jpg" alt=""></a>
+                            <div class="title">Стул барный</div>
+                            <div class="price">от &nbsp;<span>13 497</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="media-slider-item">
+                          <a href=""><img src="img/3.jpg" alt=""></a>
+                            <div class="title">Стул Aida</div>
+                            <div class="price">от &nbsp;<span>15 579</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="media-slider-item">
+                          <a href=""><img src="img/4.jpg" alt=""></a>
+                            <div class="title">Стул Aida</div>
+                              <div class="price">от &nbsp;<span>15 497</span> &nbsp;Pуб.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="media-controls" onclick="">
+                      <label for="media-slide1"></label>
+                      <label for="media-slide2"></label>
+                      <label for="media-slide3"></label>
+                      <label for="media-slide4"></label>
+                    </div>
+                  </div>
+                  <div class="media-bottom-red"></div>
+                </div>
+              </div>
+            </li>
+            <li class="media-sub-li"><a class="inner-bottom" href="#">
+              <div class="text">Кабинет</div></a>
+              <div class="media-drop">
+                <ul class="media-sub-menu">
+                  <h3>Стулья</h3>
+                  <li><a href="#">Барные стулья</a></li>
+                  <h3>Столы</h3>
+                  <li><a href="#">Нераскладные столы</a></li>
+                  <li><a href="#">Раскладные столы</a></li>
+                  <li><a href="#">Консольные столы</a></li>
+                  <li><a href="#">Трансформеры</a></li>
+                </ul>
+                <div class="media-wrapper-slider">
+                  <div class="media-catalog-slider">
+                    <input checked type="radio" name="slider1" id="media-slide5" class="set" />
+                    <input type="radio" name="slider1" id="media-slide6" class="set" />
+                    <input type="radio" name="slider1" id="media-slide7" class="set" />
+                    <input type="radio" name="slider1" id="media-slide8" class="set" />
+                    <div class="media-mask">
+                      <div class="media-overflow">
+                        <div class="media-slider-item">
+                          <a href=""><img src="img/1.jpg" alt=""></a>
+                            <div class="title">Стол ECLISSE</div>
+                            <div class="price">от &nbsp;<span>324 497</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="media-slider-item">
+                          <a href=""><img src="img/2.jpg" alt=""></a>
+                            <div class="title">Стул барный</div>
+                            <div class="price">от &nbsp;<span>13 497</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="media-slider-item">
+                          <a href=""><img src="img/3.jpg" alt=""></a>
+                            <div class="title">Стул Aida</div>
+                            <div class="price">от &nbsp;<span>15 579</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="media-slider-item">
+                          <a href=""><img src="img/4.jpg" alt=""></a>
+                            <div class="title">Стул Aida</div>
+                              <div class="price">от &nbsp;<span>15 497</span> &nbsp;Pуб.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="media-controls" onclick="">
+                      <label for="media-slide5"></label>
+                      <label for="media-slide6"></label>
+                      <label for="media-slide7"></label>
+                      <label for="media-slide8"></label>
+                    </div>
+                  </div>
+                  <div class="media-bottom-red"></div>
+                </div>
+              </div>
+            </li>
+            <li class="media-sub-li"><a class="inner-bottom" href="#">
+              <div class="text">Гостиная</div></a>
+            </li>
+            <li class="media-sub-li"><a class="inner-bottom" href="#">
+              <div class="text">Аксессуары</div></a>
+            </li>
+            <li class="media-sub-li"><a class="inner-bottom" href="#">
+              <div class="text">Спальня</div></a>
+            </li>
+          </ul>
+        </div>
+        <ul id="navBottom" class="nav-bottom">
+          <li class="sub-li">
+            <a class="invert-skew" href="#">
+              <div class="text">Столовая</div>
+            </a>
+            <div class="drop">
+              <ul class="sub-menu">
+                <h3>Стулья</h3>
+                <li><a href="#">Барные стулья</a></li>
+                <h3>Столы</h3>
+                <li><a href="#">Нераскладные столы</a></li>
+                <li><a href="#">Раскладные столы</a></li>
+                <li><a href="#">Консольные столы</a></li>
+                <li><a href="#">Трансформеры</a></li>
+              </ul>
+              <div class="wrapper-slider">
+                <div class="catalog-slider">
+                  <input checked type="radio" name="m-slider" id="slide5" class="set" />
+                  <input type="radio" name="m-slider" id="slide6" class="set" />
+                  <input type="radio" name="m-slider" id="slide7" class="set" />
+                  <input type="radio" name="m-slider" id="slide8" class="set" />
+                  <div class="mask">
+                    <div class="overflow">
+                      <div class="slider-item">
+                        <div class="item">
+                          <a href=""><img src="img/1.jpg" alt=""></a>
+                            <div class="title">Стол ECLISSE</div>
+                            <div class="price">от &nbsp;<span>324 497</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="item">
+                          <a href=""><img src="img/2.jpg" alt=""></a>
+                            <div class="title">Стул барный</div>
+                            <div class="price">от &nbsp;<span>13 497</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="item">
+                          <a href=""><img src="img/3.jpg" alt=""></a>
+                            <div class="title">Стул Aida</div>
+                            <div class="price">от &nbsp;<span>15 579</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="item">
+                          <a href=""><img src="img/4.jpg" alt=""></a>
+                            <div class="title">Стул Aida</div>
+                              <div class="price">от &nbsp;<span>15 497</span> &nbsp;Pуб.</div>
+                        </div>
+                      </div>
+                      <div class="slider-item">
+                        <div class="item">
+                          <a href=""><img src="img/1.jpg" alt=""></a>
+                            <div class="title">Стол ECLISSE</div>
+                            <div class="price">от &nbsp;<span>324 497</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="item">
+                          <a href=""><img src="img/2.jpg" alt=""></a>
+                            <div class="title">Стул барный</div>
+                            <div class="price">от &nbsp;<span>13 497</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="item">
+                          <a href=""><img src="img/3.jpg" alt=""></a>
+                            <div class="title">Стул Aida</div>
+                            <div class="price">от &nbsp;<span>15 579</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="item">
+                          <a href=""><img src="img/4.jpg" alt=""></a>
+                            <div class="title">Стул Aida</div>
+                              <div class="price">от &nbsp;<span>15 497</span> &nbsp;Pуб.</div>
+                        </div>
+                      </div>
+                      <div class="slider-item">
+                        <div class="item">
+                          <a href=""><img src="img/1.jpg" alt=""></a>
+                            <div class="title">Стол ECLISSE</div>
+                            <div class="price">от &nbsp;<span>324 497</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="item">
+                          <a href=""><img src="img/2.jpg" alt=""></a>
+                            <div class="title">Стул барный</div>
+                            <div class="price">от &nbsp;<span>13 497</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="item">
+                          <a href=""><img src="img/3.jpg" alt=""></a>
+                            <div class="title">Стул Aida</div>
+                            <div class="price">от &nbsp;<span>15 579</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="item">
+                          <a href=""><img src="img/4.jpg" alt=""></a>
+                            <div class="title">Стул Aida</div>
+                              <div class="price">от &nbsp;<span>15 497</span> &nbsp;Pуб.</div>
+                        </div>
+                      </div>
+                      <div class="slider-item">
+                        <div class="item">
+                          <a href=""><img src="img/1.jpg" alt=""></a>
+                            <div class="title">Стол ECLISSE</div>
+                            <div class="price">от &nbsp;<span>324 497</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="item">
+                          <a href=""><img src="img/2.jpg" alt=""></a>
+                            <div class="title">Стул барный</div>
+                            <div class="price">от &nbsp;<span>13 497</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="item">
+                          <a href=""><img src="img/3.jpg" alt=""></a>
+                            <div class="title">Стул Aida</div>
+                            <div class="price">от &nbsp;<span>15 579</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="item">
+                          <a href=""><img src="img/4.jpg" alt=""></a>
+                            <div class="title">Стул Aida</div>
+                              <div class="price">от &nbsp;<span>15 497</span> &nbsp;Pуб.</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="controls" onclick="">
+                    <label for="slide5"></label>
+                    <label for="slide6"></label>
+                    <label for="slide7"></label>
+                    <label for="slide8"></label>
+                  </div>
+                </div>
+                <div class="bottom-red"></div>
+              </div>
+            </div>
+          </li>
+          <li class="sub-li"><a class="invert-skew" href="#">
+            <div class="text">Кабинет</div></a>
+            <div class="drop">
+              <ul class="sub-menu">
+                <h3>Стулья</h3>
+                <li><a href="#">Барные стулья</a></li>
+                <h3>Столы</h3>
+                <li><a href="#">Нераскладные столы</a></li>
+                <li><a href="#">Раскладные столы</a></li>
+                <li><a href="#">Консольные столы</a></li>
+                <li><a href="#">Трансформеры</a></li>
+              </ul>
+              <div class="wrapper-slider">
+                <div class="catalog-slider">
+                  <input checked type="radio" name="m-slider1" id="slide1" class="set" />
+                  <input type="radio" name="m-slider1" id="slide2" class="set" />
+                  <input type="radio" name="m-slider1" id="slide3" class="set" />
+                  <input type="radio" name="m-slider1" id="slide4" class="set" />
+                  <div class="mask">
+                    <div class="overflow">
+                      <div class="slider-item">
+                        <div class="item">
+                          <a href=""><img src="img/1.jpg" alt=""></a>
+                            <div class="title">Стол ECLISSE</div>
+                            <div class="price">от &nbsp;<span>324 497</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="item">
+                          <a href=""><img src="img/2.jpg" alt=""></a>
+                            <div class="title">Стул барный</div>
+                            <div class="price">от &nbsp;<span>13 497</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="item">
+                          <a href=""><img src="img/3.jpg" alt=""></a>
+                            <div class="title">Стул Aida</div>
+                            <div class="price">от &nbsp;<span>15 579</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="item">
+                          <a href=""><img src="img/4.jpg" alt=""></a>
+                            <div class="title">Стул Aida</div>
+                              <div class="price">от &nbsp;<span>15 497</span> &nbsp;Pуб.</div>
+                        </div>
+                      </div>
+                      <div class="slider-item">
+                        <div class="item">
+                          <a href=""><img src="img/1.jpg" alt=""></a>
+                            <div class="title">Стол ECLISSE</div>
+                            <div class="price">от &nbsp;<span>324 497</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="item">
+                          <a href=""><img src="img/2.jpg" alt=""></a>
+                            <div class="title">Стул барный</div>
+                            <div class="price">от &nbsp;<span>13 497</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="item">
+                          <a href=""><img src="img/3.jpg" alt=""></a>
+                            <div class="title">Стул Aida</div>
+                            <div class="price">от &nbsp;<span>15 579</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="item">
+                          <a href=""><img src="img/4.jpg" alt=""></a>
+                            <div class="title">Стул Aida</div>
+                              <div class="price">от &nbsp;<span>15 497</span> &nbsp;Pуб.</div>
+                        </div>
+                      </div>
+                      <div class="slider-item">
+                        <div class="item">
+                          <a href=""><img src="img/1.jpg" alt=""></a>
+                            <div class="title">Стол ECLISSE</div>
+                            <div class="price">от &nbsp;<span>324 497</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="item">
+                          <a href=""><img src="img/2.jpg" alt=""></a>
+                            <div class="title">Стул барный</div>
+                            <div class="price">от &nbsp;<span>13 497</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="item">
+                          <a href=""><img src="img/3.jpg" alt=""></a>
+                            <div class="title">Стул Aida</div>
+                            <div class="price">от &nbsp;<span>15 579</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="item">
+                          <a href=""><img src="img/4.jpg" alt=""></a>
+                            <div class="title">Стул Aida</div>
+                              <div class="price">от &nbsp;<span>15 497</span> &nbsp;Pуб.</div>
+                        </div>
+                      </div>
+                      <div class="slider-item">
+                        <div class="item">
+                          <a href=""><img src="img/1.jpg" alt=""></a>
+                            <div class="title">Стол ECLISSE</div>
+                            <div class="price">от &nbsp;<span>324 497</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="item">
+                          <a href=""><img src="img/2.jpg" alt=""></a>
+                            <div class="title">Стул барный</div>
+                            <div class="price">от &nbsp;<span>13 497</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="item">
+                          <a href=""><img src="img/3.jpg" alt=""></a>
+                            <div class="title">Стул Aida</div>
+                            <div class="price">от &nbsp;<span>15 579</span> &nbsp;Pуб.</div>
+                        </div>
+                        <div class="item">
+                          <a href=""><img src="img/4.jpg" alt=""></a>
+                            <div class="title">Стул Aida</div>
+                              <div class="price">от &nbsp;<span>15 497</span> &nbsp;Pуб.</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="controls" onclick="">
+                    <label for="slide1"></label>
+                    <label for="slide2"></label>
+                    <label for="slide3"></label>
+                    <label for="slide4"></label>
+                  </div>
+                </div>
+                <div class="bottom-red"></div>
+              </div>
+            </div>
+          </li>
+          <li class="sub-li"><a class="invert-skew" href="#">
+            <div class="text">Гостиная</div></a>
+          </li>
+          <li class="sub-li"><a class="invert-skew" href="#">
+            <div class="text">Аксессуары</div></a>
+          </li>
+          <li class="sub-li"><a class="invert-skew" href="#">
+            <div class="text">Спальня</div></a>
+          </li>
+        </ul>
+
+        <div class="sale">
+          <a class="invert-skew" href="#"><div class="text">Sale</div></a>
+        </div>
+        <div class="search-block">
+          <form action="#" class="search-form">
+            <input class="descript" type="text" placeholder="Я ищу...">
+            <input class="submit-marker" type="submit" value="">
+          </form>
+        </div>
+        <div class="search-block-min">
+          <form action="#" class="search-form-min">
+            <input type="text" placeholder="Я ищу...">
+            <button class="submit-marker-min" type="submit" type="button" name="button"><img src="img/red-search.png" alt=""></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="main">
+    <div class="accordion-slider" id="accordion">
+      <div class="accordion-slider-wrap">
+        <div class="accordion-slider-item">
+          <div class="skew-block">
+        		<div class="inner-wrap_1">
+        			<div class="text">Итальянская изысканность</div>
+        		</div>
+        		<div class="inner-wrap_2">
+        			<div class="text-red">от  <span>CALLIGARIS &#8594</span></div>
+        		</div>
+        	</div>
+          <div class="price-marker-eclisse">
+        		<div class="marker-block">
+        			<div class="inner-wrap">
+        				<div class="circle">&#10010</div>
+        			</div>
+        		</div>
+        		<div class="description">
+              <div class="line-bottom"></div>
+        			<div class="inner-description">
+        				<a href="#"><div class="text-top">Cтол <span>ECLISSE</span></div></a>
+        			</div>
+        			<div class="bottom-description">
+        				<div class="text-bottom">от <span>324 497</span> руб.</div>
+        			</div>
+        		</div>
+        	</div>
+          <div class="price-marker-aida">
+        		<div class="marker-block">
+        			<div class="inner-wrap">
+        				<div class="circle">&#10010</div>
+        			</div>
+        		</div>
+        		<div class="description">
+              <div class="line-bottom"></div>
+        			<div class="inner-description">
+        				<a href="#"><div class="text-top">Cтул <span>AIDA</span></div></a>
+        			</div>
+        			<div class="bottom-description">
+        				<div class="text-bottom">от <span>15 579</span> руб.</div>
+        			</div>
+        		</div>
+        	</div>
+          <img src="img/slide_1.jpg" />
+        </div>
+        <div class="accordion-slider-item">
+          <div class="skew-block">
+        		<div class="inner-wrap_1">
+        			<div class="text">Итальянская изысканность</div>
+        		</div>
+        		<div class="inner-wrap_2">
+        			<div class="text-red">от  <span>CALLIGARIS &#8594</span></div>
+        		</div>
+        	</div>
+          <div class="price-marker-eclisse">
+            <div class="marker-block">
+              <div class="inner-wrap">
+                <div class="circle">&#10010</div>
+              </div>
+            </div>
+            <div class="description">
+              <div class="line-bottom"></div>
+              <div class="inner-description">
+                <a href="#"><div class="text-top">Cтол <span>ECLISSE</span></div></a>
+              </div>
+              <div class="bottom-description">
+                <div class="text-bottom">от <span>324 497</span> руб.</div>
+              </div>
+            </div>
+          </div>
+          <div class="price-marker-aida">
+            <div class="marker-block">
+              <div class="inner-wrap">
+                <div class="circle">&#10010</div>
+              </div>
+            </div>
+            <div class="description">
+              <div class="line-bottom"></div>
+              <div class="inner-description">
+                <a href="#"><div class="text-top">Cтул <span>AIDA</span></div></a>
+              </div>
+              <div class="bottom-description">
+                <div class="text-bottom">от <span>15 579</span> руб.</div>
+              </div>
+            </div>
+          </div>
+          <img src="img/slide_2.jpg" /></div>
+        <div class="accordion-slider-item">
+          <div class="skew-block">
+        		<div class="inner-wrap_1">
+        			<div class="text">Итальянская изысканность</div>
+        		</div>
+        		<div class="inner-wrap_2">
+        			<div class="text-red">от  <span>CALLIGARIS &#8594</span></div>
+        		</div>
+        	</div>
+          <div class="price-marker-eclisse">
+            <div class="marker-block">
+              <div class="inner-wrap">
+                <div class="circle">&#10010</div>
+              </div>
+            </div>
+            <div class="description">
+              <div class="line-bottom"></div>
+              <div class="inner-description">
+                <a href="#"><div class="text-top">Cтол <span>ECLISSE</span></div></a>
+              </div>
+              <div class="bottom-description">
+                <div class="text-bottom">от <span>324 497</span> руб.</div>
+              </div>
+            </div>
+          </div>
+          <div class="price-marker-aida">
+            <div class="marker-block">
+              <div class="inner-wrap">
+                <div class="circle">&#10010</div>
+              </div>
+            </div>
+            <div class="description">
+              <div class="line-bottom"></div>
+              <div class="inner-description">
+                <a href="#"><div class="text-top">Cтул <span>AIDA</span></div></a>
+              </div>
+              <div class="bottom-description">
+                <div class="text-bottom">от <span>15 579</span> руб.</div>
+              </div>
+            </div>
+          </div>
+          <img src="img/slide_3.jpg" /></div>
+        <div class="accordion-slider-item">
+          <div class="skew-block">
+        		<div class="inner-wrap_1">
+        			<div class="text">Итальянская изысканность</div>
+        		</div>
+        		<div class="inner-wrap_2">
+        			<div class="text-red">от  <span>CALLIGARIS &#8594</span></div>
+        		</div>
+        	</div>
+          <div class="price-marker-eclisse">
+            <div class="marker-block">
+              <div class="inner-wrap">
+                <div class="circle">&#10010</div>
+              </div>
+            </div>
+            <div class="description">
+              <div class="line-bottom"></div>
+              <div class="inner-description">
+                <a href="#"><div class="text-top">Cтол <span>ECLISSE</span></div></a>
+              </div>
+              <div class="bottom-description">
+                <div class="text-bottom">от <span>324 497</span> руб.</div>
+              </div>
+            </div>
+          </div>
+          <div class="price-marker-aida">
+            <div class="marker-block">
+              <div class="inner-wrap">
+                <div class="circle">&#10010</div>
+              </div>
+            </div>
+            <div class="description">
+              <div class="line-bottom"></div>
+              <div class="inner-description">
+                <a href="#"><div class="text-top">Cтул <span>AIDA</span></div></a>
+              </div>
+              <div class="bottom-description">
+                <div class="text-bottom">от <span>15 579</span> руб.</div>
+              </div>
+            </div>
+          </div>
+          <img src="img/slide_2.jpg" />
+        </div>
+      </div>
+    </div>
+    <div class="m-bottom"></div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="contacts">
+        <div class="phone">
+          <a href=""><i class="fa fa-phone fa-fw" aria-hidden="true"></i></a>
+          <span> +3 093 514-14-06</span>
+        </div>
+        <address>
+          <a href=""><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i></a>
+          <span class="capital">ТЦ "Строй Плаза", М.О.,</span>
+          <span>Балашиха, ш.Энтузиастов, 1А, 2 этаж</span>
+         </address>
+        <div class="works">
+          <a href=""><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i></a>
+          <span>С 10.00 до 20.00 без перерыва, без выходных</span>
+        </div>
+        <div class="social">
+          <a href=""><i class="fa fa-vk fa-fw"></i></a>
+          <a href=""><i class="fa fa-facebook fa-fw"></i></a>
+          <a href=""><i class="fa fa-twitter fa-fw"></i></a>
+        </div>
+        <div class="mailing">
+          <a href=""><i class="fa fa-envelope fa-fw"></i></a>
+        </div>
+        <div class="popur-mailing">
+          <div class="subscribe">
+            <span>Подписаться на рассылку</span>
+            <div class="subscribe-block">
+              <form action="#" class="subscribe-form">
+                <input class="subscribe-description" type="text" placeholder="E-mail">
+                <input class="submit-marker" type="submit" value="">
+                <i class="fa fa-envelope"></i>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="feedback">
+        <div class="about">
+          <h2>О магазине</h2>
+          <div class="content">
+            <p>В 2012 г. открылся первый в Москве монобрендовый магазин Calligaris, в котором на площади 500 кв.м представлен полный ассортимент этой популярной итальянской фабрики. Компания Calligaris – итальянский производитель, работающий с полной самоотдачей и вниманием к потребителю с 1923 г. – сегодня полностью меняет свой облик</p>
+            <p>Новый логотип, а вместе с ним и новый мир образов, наилучшим образом выражает сущность компании, ее характерные особенности; в глазах общественности он является символом дизайна, наконец-то доступного широкой публике. </p>
+            <p>Кроме того, у Calligaris теперь есть свой талисман – дятел, неутомимый труженик, живущий на деревьях. Он воплощает любовь к дереву, а также находчивость, которую фирма проявляет при разработке и изготовлении своей продукции.</p>
+          </div>
+        </div>
+        <aside>
+          <div class="subscribe">
+            <span>Подписаться на рассылку</span>
+            <div class="subscribe-block">
+              <form action="#" class="subscribe-form">
+                <input class="subscribe-description" type="text" placeholder="E-mail">
+                <input class="submit-marker" type="submit" value="">
+                <i class="fa fa-envelope"></i>
+              </form>
+            </div>
+          </div>
+          <div class="link">
+            <img src="img/laptop.png" alt="">
+            <div class="footer-logo">
+              <img src="img/footer-logo.png" alt="">
+              <a class="a-link" href="">Международный сайт Calligaris</a>
+            </div>
+          </div>
+        </aside>
+        <div class="social-media">
+          <span><img src="img/icon-vk.png" alt=""></span>
+          <span><img src="img/icon-fb.png" alt=""></span>
+          <span><img src="img/twitter.png" alt=""></span>
+        </div>
+      </section>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span>© Магазин Calligaris. Все права защищены.</span>
+        <span>Торговые марки, модели и патенты на данном сайте являются собственностью Calligaris s.p.a. ITALIA</span>
+      </div>
+    </div>
+  </footer>
+
+    <!--<nav class="outer-nav right vertical">
+      <a href="#">Товары</a>
+      <a href="#">Услуги</a>
+      <a href="#">Прайс-линк</a>
+      <a href="#">Пресс-центр</a>
+      <a href="#">О нас</a>
+      <a href="#">Регистрация</a>
+      <a href="#">Вход</a>
+    </nav>-->
+
+</body>
+
+  <script type="text/javascript">
+    $(function(){
+      accordion.init({
+        id: 'accordion'
+      });
+    });
+    </script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-36251023-1']);
+      _gaq.push(['_setDomainName', 'jqueryscript.net']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+  </script>
+  <script type="text/javascript" src="js/dropmenu.js"></script>
+  <script type="text/javascript" src="js/accordion-slider.js"></script>
+</html>
