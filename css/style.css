@@ -56,9 +56,6 @@ body {
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
 }
-.main {
-
-}
 .m-bottom {
 	width: 100%;
 	min-height: 5px;
